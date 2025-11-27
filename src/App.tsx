@@ -281,7 +281,7 @@ function App() {
             <br />
             Licensed under{' '}
             <Link href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" inline>
-              GPL-3.0-or-later
+              GPL-3.0 or later
             </Link>
           </Text>
         </div>
