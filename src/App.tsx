@@ -277,7 +277,7 @@ function App() {
 
           {/* Footer */}
           <Text size={300} className={styles.footer}>
-            © {new Date().getFullYear()} NtKrnl64 | Built with React & Fluent UI
+            Copyleft {new Date().getFullYear()} NtKrnl64 | Built with React & Fluent UI
             <br />
             Licensed under{' '}
             <Link href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" inline>
