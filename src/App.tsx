@@ -66,7 +66,7 @@ function App() {
           </div>
 
           <div className={styles.buttonsRow}>
-            <Button appearance="primary" icon={<Mail24Regular />} onClick={() => window.open('mailto:nt@krnl64.win')}>Email</Button>
+            <Button appearance="primary" icon={<Mail24Regular />} onClick={() => window.open('https://email.krnl64.win/base64/bnRAa3JubDMyLndpbg')}>Email</Button>
             <Button appearance="outline" icon={<LockClosed24Regular />} onClick={() => window.open('https://keys.openpgp.org/search?q=69A3A4946E2D6191ECE202814639E4B96D2F9B95')}>PGP Key</Button>
             <Button appearance="subtle" icon={<Heart24Regular />} onClick={() => setShowDonate(true)}>捐赠</Button>
           </div>
