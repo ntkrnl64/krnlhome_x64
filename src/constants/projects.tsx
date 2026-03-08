@@ -61,4 +61,22 @@ export const PROJECTS: Project[] = [
     repoUrl: "https://github.com/ntkrnl64/stalk",
     status: "Maintenance",
   },
+  {
+    "id": "nextbridge",
+    "title": "NextBridge",
+    "description": "一个使用 Python 编写的跨平台消息同步工具",
+    "tags": ["Python"],
+    "repoUrl": "https://github.com/siiway/nextbridge",
+    "status": "Maintenance"
+  },
+  {
+    "id": "prism",
+    "title": "Prism",
+    "description": "一个使用 TypeScript 编写的 OAuth / OpenID Connect 提供商实现，使用 Cloudflare Workers 部署",
+    "tags": ["TypeScript", "Cloudflare Workers", "OAuth", "OpenID Connect", "Fluent UI"],
+    "repoUrl": "https://github.com/siiway/prism",
+    "demoUrl": "https://prism.siiway.org",
+    "status": "Active",
+    "featured": true
+  }
 ];
