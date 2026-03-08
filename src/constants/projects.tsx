@@ -7,6 +7,7 @@ export interface Project {
   tags: string[];
   repoUrl?: string; // GitHub/GitLab 链接
   demoUrl?: string; // 在线演示链接
+  docsUrl?: string; // 文档链接
   status: ProjectStatus;
   featured?: boolean; // 是否置顶/推荐
 }
@@ -67,6 +68,7 @@ export const PROJECTS: Project[] = [
     "description": "一个使用 Python 编写的跨平台消息同步工具",
     "tags": ["Python"],
     "repoUrl": "https://github.com/siiway/nextbridge",
+    "docsUrl": "https://nextbridge.siiway.org",
     "status": "Maintenance"
   },
   {
@@ -76,6 +78,7 @@ export const PROJECTS: Project[] = [
     "tags": ["TypeScript", "Cloudflare Workers", "OAuth", "OpenID Connect", "Fluent UI"],
     "repoUrl": "https://github.com/siiway/prism",
     "demoUrl": "https://prism.siiway.org",
+    "docsUrl": "https://prism-docs.siiway.org",
     "status": "Active",
     "featured": true
   }

@@ -17,6 +17,7 @@ import {
   Clock24Regular,
   Archive24Regular,
   Beaker24Regular,
+  Document24Regular,
 } from "@fluentui/react-icons";
 import type { Project, ProjectStatus } from "../constants/projects";
 
@@ -118,6 +119,15 @@ export const ProjectCard = ({ project }: { project: Project }) => {
             onClick={() => window.open(project.repoUrl, "_blank")}
           >
             Source
+          </Button>
+        )}
+        {project.docsUrl && (
+          <Button
+            icon={<Document24Regular />}
+            appearance="subtle"
+            onClick={() => window.open(project.docsUrl, "_blank")}
+          >
+            Docs
           </Button>
         )}
         {project.demoUrl && (
